@@ -1,0 +1,44 @@
+.maks{
+    font-size: 300px;
+    font-family: monospace, sans-serif;
+    color: blueviolet;
+}
+
+body{
+    max-width:1440px;
+    margin:0 auto !important;
+}
+.pidor{
+    font-size: large;
+}
+input[name='check']{
+    pointer-events: none;
+}
+::selection{ background-color: rgb(255, 187, 0);
+    color: rgb(0, 0, 0);
+}
+select{
+    background-color: brown;
+    color: blue;
+}
+.choose__h1{
+    font-size:200px;
+}
+
+
+@media screen and (max-width: 795px) {
+
+    img{
+        width:100%;
+        height:350px;
+    }
+
+    h1.maks, .choose__h1{
+        font-size:45px !important;
+    }
+
+    select{
+        color:white;
+        font-size:35px;
+    }
+}
